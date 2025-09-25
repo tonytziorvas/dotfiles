@@ -17,6 +17,8 @@
 # options using:
 #     config nu --doc | nu-highlight | less -R
 
+$env.config.completions.case_sensitive = true
+$env.config.buffer_editor = "code"
 $env.config = {
 	rm: {
         always_trash: false # always act as if -t was given. Can be overridden with -p
@@ -70,3 +72,4 @@ def --env y [...args] {
 	}
 	rm -fp $tmp
 }
+
