@@ -11,6 +11,11 @@ format = """$directory$character"""
 
 right_format = """$all"""
 
+[directory.substitutions]
+"~/Documents/2.Work/Code" = "Code 💻"
+"~/Documents/1.Personal" = "Personal 🏠"
+"~/Documents/99.Archive" = "Archive 📦"
+
 # Starship modules
 [character]
 # Note the use of Catppuccin color 'peach'
@@ -80,6 +85,8 @@ symbol = " "
 
 [directory]
 read_only = " 󰌾"
+truncation_length = 6
+truncation_symbol = ".../"
 
 [docker_context]
 symbol = " "
