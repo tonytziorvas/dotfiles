@@ -12,7 +12,7 @@ format = """$directory$character"""
 right_format = """$all"""
 
 [directory.substitutions]
-"~/Documents/2.Work/Code" = "Code 💻"
+"~/Documents/2.Work" = "Work 💻"
 "~/Documents/1.Personal" = "Personal 🏠"
 "~/Documents/99.Archive" = "Archive 📦"
 

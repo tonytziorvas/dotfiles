@@ -17,13 +17,15 @@
 # options using:
 #     config nu --doc | nu-highlight | less -R
 
-$env.config.completions.case_sensitive = true
+$env.config.completions.case_sensitive = false
 $env.config.buffer_editor = "code"
 $env.config = {
 	rm: {
         always_trash: false # always act as if -t was given. Can be overridden with -p
     }
 }
+
+$env.config.show_banner = false
 
 def --env cx [arg] {
     cd $arg
