@@ -17,8 +17,8 @@
         "gpt-oss:20b": {
           "name": "GPT-20B"
         },
-        "qwen3-coder:30b-a3b-q4_K_M": {
-          "name": "Qwen3-Coder:30b"
+        "qwen3-coder:30b-a3b-q8_0": {
+          "name": "Qwen3-Coder:30b-A3B"
         },
         "qwen3:30b-a3b-thinking-2507-q8_0": {
           "name": "Qwen3-Thinking:30b"
@@ -31,7 +31,10 @@
         },
         "Qwen3-235B-A22B-Instruct-2507:latest": {
           "name": "Qwen3-Intruct:235B"
-        }
+        },
+        "llama4:16x17b": {
+          "namne": "Llama4-Scout"
+        },
       }
     }
   }
